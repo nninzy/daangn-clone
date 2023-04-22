@@ -1,0 +1,18 @@
+:root {
+    /* main color */
+    --main-carrot: #FF7E36;
+    /* background color */
+    --index-beige: #FBF7F3;
+    --index-green: #E6F3E6;
+    --store-beige: #E6F3E6;
+    --jobs-carrot: #FFE2D2;
+    --realty-carrot: #D2EDFA;
+    /* banner, btn, hover color */
+    --banner-carrot: #FF7E36;
+    --banner-blue: #EBF5FD;
+    --btn-gray: #f2f3f6;
+    --hover-gray: #878c95;
+    --active-gray: #4C5159;
+    /* 마우스 드래그 */
+    --drag-carrot: #ffb98b;
+}

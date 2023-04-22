@@ -1,0 +1,109 @@
+/* phone size media query */
+@media screen and (max-width:786px) {
+    .header {
+        width: 100vw;
+        justify-content: space-between;
+    }
+    .header nav {
+        display: none;
+    }
+    .header__input-btn form {
+        display: none;
+    }
+    .header__input-btn a {
+        display: none;
+    }
+}
+/* tablet size media query */
+@media screen and (min-width: 786px) and (max-width:964px) {
+    .header {
+        width: 100vw;
+    }
+    .header__input-btn {
+        padding-left: 75px;
+    }
+    .header__input-btn form {
+        display: none;
+    }
+    .header__input-btn div:last-child button {
+        display: none;
+    }
+}
+/* PC size media query */
+@media screen and (min-width: 964px) {
+    .header__input-btn {
+        padding-left: 50px;
+    }
+    .header__input-btn button {
+        display: none;
+    }
+}
+
+.header {
+    max-width: 1220px;
+    display: flex;
+    align-items: center;
+    height: 64px;
+    padding: 12px 16px;
+    background-color: inherit;
+    position: fixed;
+    top: 0;
+}
+/* header__nav */
+.header__nav {
+    display: flex;
+    align-items: center;
+}
+.header__nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    list-style: none;
+}
+.header__nav ul li {
+    display: flex;
+    margin-right: 2rem;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+.header__nav__item--now {
+    color: var(--main-carrot);
+}
+.header__nav__item:hover {
+    color: var(--hover-gray);
+}
+/* header__input */
+.header__input-btn {
+    display: flex;
+}
+.header__input-btn div:first-child {
+    display: flex;
+    margin: auto 12px auto auto;
+}
+.header__input-btn input {
+    width: 288px;
+    padding: 9px 12px;
+    border: none;
+    border-radius: 6px;
+    background-color: var(--btn-gray);
+}
+.header__input-btn div:last-child {
+    display: flex;
+    margin: auto 0;
+}
+.header__input-btn a {
+    width: 98px;
+    padding: 7px 16px;
+    border: 0.5px solid darkgray;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 1rem;
+}
+.header__input-btn a:hover {
+    background-color: var(--btn-gray);
+    color: var(--hover-gray);
+}
+.header__input-btn button {
+    border: none;
+    background-color: inherit;
+}

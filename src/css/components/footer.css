@@ -1,0 +1,20 @@
+.footer__top {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.footer__top__app-download button{
+    padding: 12px 25px;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--btn-gray);
+    font-weight: 600;
+}
+.footer__top__app-download button i {
+    margin-right: 8px;
+}
+.footer__top__nav {
+    display: flex;
+}
+.footer__top__nav ul {
+    list-style: none;
+}

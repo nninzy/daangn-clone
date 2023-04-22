@@ -1,0 +1,9 @@
+/* phone size media query */
+@media screen and (max-width:786px) {
+}
+/* tablet size media query */
+@media screen and (min-width: 786px) and (max-width:964px) {
+}
+/* PC size media query */
+@media screen and (min-width: 964px) {
+}
