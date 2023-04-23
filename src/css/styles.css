@@ -10,7 +10,7 @@
 @import "components/banner.css";
 /* screens--main style */
 @import "screens/index.css";
-@import "screens/store.css";
+@import "screens/nearby-store.css";
 @import "screens/jobs.css";
 @import "screens/realty.css";
 @import "screens/cars.css";
