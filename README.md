@@ -18,19 +18,21 @@
 
 ## [TIL](til/)
 
-* 작업 기록 (날짜별 작업한 범위 및 새롭게 배운 내용 정리)
+= 작업 기록 (날짜별 작업한 범위 및 새롭게 배운 내용 정리)
+
+* 기획안 및 TIL 노션 정리 페이지
 
 <a href="https://min-z.notion.site/838b6037118347cbb74563a958845f29">
-     <img 
-         src="http://img.shields.io/badge/notion-000000?style=flat&logo=notion&link=https://min-z.notion.site/cce273910bef4ed0a8ea204e6f83da1e"
-         style="height : auto; margin-left : 10px; margin-right : 10px;"/>
+    <img 
+        src="http://img.shields.io/badge/notion-000000?style=flat&logo=notion&link=https://min-z.notion.site/cce273910bef4ed0a8ea204e6f83da1e"
+        style="height : auto; margin-left : 10px; margin-right : 10px;"/>
 </a>
 
 ---
 
 ## HTML 파일 설명
 
-* 당근마켓 클론코딩을 구성하는 html 파일 리스트
+= 당근마켓 클론코딩을 구성하는 html 파일 리스트
 
 ### [index.html](index.html) = 당근마켓 최상단 페이지 (중고거래 페이지와 동일)
 
@@ -61,11 +63,11 @@
 
 ## [src](src/) 폴더 내 파일(CSS, JS) 설명
 
-* CSS, js, 이미지, svg 파일 등이 있는 곳
+= CSS, js, 이미지, svg 파일 등이 있는 곳
 
 ### [css > components](src/css/components/)
 
-* 웹 페이지 내 공통적으로 존재 or 독립적인 component의 스타일 모음
+= 웹 페이지 내 공통적으로 존재 or 독립적인 component의 스타일 모음
 
 * [articles--column.css](src/css/components/articles--column.css)
 
@@ -106,19 +108,19 @@
 
 ### [css > screens](src/css/screens/)
 
-* 각 웹 페이지별 스타일 모음
+= 각 웹 페이지별 스타일 모음
 
 ### [css > reset.css](src/css/reset.css)
 
-* 브라우저에서 기본적으로 지원해주는 스타일에 대한 재설정
+= 브라우저에서 기본적으로 지원해주는 스타일에 대한 재설정
 
 ### [css > styles.css](src/css/styles.css)
 
-* html에 연결되는 가장 기본적인 스타일
+= html에 연결되는 가장 기본적인 스타일
 
 ### [css > variables.css](src/css/variables.css)
 
-* 전체 스타일에서 사용되는 CSS 변수 모음 (색상, 여백 등)
+= 전체 스타일에서 사용되는 CSS 변수 모음 (색상, 여백 등)
 
 ---
 
