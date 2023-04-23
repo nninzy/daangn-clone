@@ -49,19 +49,22 @@
     position: fixed;
     top: 0;
 }
+/* header__logo */
+.header__logo {
+    margin-right: 2rem;
+}
 /* header__nav */
 .header__nav {
     display: flex;
-    align-items: center;
 }
 .header__nav ul {
     display: flex;
     flex-wrap: wrap;
-    margin: auto;
     list-style: none;
 }
 .header__nav ul li {
     display: flex;
+    align-items: center;
     margin-right: 2rem;
     font-weight: 700;
     font-size: 1.1rem;

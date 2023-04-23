@@ -27,6 +27,7 @@
 }
 h1::selection, span::selection, b::selection, div::selection {
     background-color: var(--drag-carrot);
+    color: black;
 }
 .hidden {
     display: none;
