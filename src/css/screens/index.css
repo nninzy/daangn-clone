@@ -1,9 +1,129 @@
 /* phone size media query */
-@media screen and (max-width:786px) {
+@media screen and (max-width: 964px) {
+    .index-main__sec {
+        flex-direction: column;
+    }
+    .index-main__sec__detail {
+        width: 100%;
+        text-align: center;
+    }
+    .index-main__sec__detail__btn {
+        flex-direction: column;
+        margin: 24px 0;
+    }
+    .index-main__sec__detail__btn > a {
+        width: 100%;
+        margin-top: 12px;
+        padding: 10px;
+    }
+    .index-main__sec__image > img {
+        width: 328px;
+    }
+    .index-main__sec__detail__table {
+        display: none;
+    }
 }
-/* tablet size media query */
-@media screen and (min-width: 786px) and (max-width:964px) {
-}
-/* PC size media query */
+/* tablet and PC size media query */
 @media screen and (min-width: 964px) {
+    .index-main__sec, .index-main__sec--articles {
+        width: 1040px;
+    }
+    .index-main__sec--reverse {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+    .index-main__sec--reverse .index-main__sec__detail {
+        padding-left: 60px;
+    }
+    .index-main__sec__detail {
+        width: 50%;
+    }
+    .br-none {
+        display: none;
+    }
+    .index-main__sec__detail__btn > a {
+        padding: 14.5px 26px;
+        margin: 16px 16px 0 0;
+    }
+    .index-main__sec__image > img {
+        width: 526px;
+        margin: 50px 0;
+    }
+    .index-main__sec__detail__table {
+        display: flex;
+    }
+}
+
+/* index-main__sec */
+.index-main__sec-background {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.index-main__sec-background--green {
+    background-color: var(--index-green);
+}
+.index-main__sec-background--gray {
+    background-color: var(--index-gray);
+}
+.index-main__sec {
+    display: flex;
+}
+/* index-main__sec__detail */
+.index-main__sec__detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    white-space: nowrap;
+}
+.index-main__sec__detail > h1, .index-main__sec--articles > h1 {
+    margin : 72px 0 32px;
+    font-weight: 600;
+}
+/* index-main__sec__detail__btn */
+.index-main__sec__detail__btn {
+    display: flex;
+}
+.index-main__sec__detail__btn a {
+    background-color: var(--btn-gray);
+    padding: 14.5px 26px;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+}
+.index-main__sec__detail__btn a:hover {
+    background-color: var(--hover-gray);
+}
+/* index-main__sec__detail__table */
+.index-main__sec__detail__table {
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 40px;
+}
+.index-main__sec__detail__table__row {
+    flex-direction: column;
+    padding-right: 40px;
+}
+.index-main__sec__detail__table__row img {
+    width: 56px;
+    height: 56px;
+}
+.index-main__sec__detail__table__row h6 {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 16px 0 8px;
+}
+.index-main__sec__detail__table__row p {
+    font-size: 12px;
+}
+/* index-main__articles */
+.index-main__sec--articles {
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.index-main__sec--articles > h1 {
+    margin-bottom: 80px;
 }

@@ -32,6 +32,8 @@ h1::selection, span::selection, b::selection, div::selection {
 .hidden {
     display: none;
 }
-main {
-    min-height: 1200px;
+.main {
+    margin-top: 60px;
+    padding: 0;
+    border-bottom: 0.5px solid var(--btn-gray);
 }

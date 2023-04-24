@@ -40,7 +40,6 @@
 .footer__top {
     display: flex;
     padding: 48px 0;
-    border-bottom: 0.5px solid var(--btn-gray);
 }
 /* footer__top__right */
 .footer__top__right {

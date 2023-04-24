@@ -1,0 +1,66 @@
+/* phone size media query */
+@media screen and (max-width:964px) {
+    .screen-thumbnail--index {
+        flex-direction: column;
+    }
+    .screen-thumbnail__detail {
+        padding-top: 10px;
+        text-align: center;
+        width: 100%;
+    }
+    .screen-thumbnail__image {
+        width: 100%;
+    }
+    .screen-thumbnail__image img:first-child {
+        display: none;
+    }
+}
+/* tablet and PC size media query */
+@media screen and (min-width: 964px) {
+    .screen-thumbnail--index {
+        flex-direction: row;
+    }
+    .screen-thumbnail__detail {
+        width: 40%;
+    }
+    .screen-thumbnail__image {
+        width: 60%;
+    }
+    .screen-thumbnail__image img:last-child {
+        display: none;
+    }
+}
+
+.screen-thumbnail-background--index {
+    width: 100vw;
+    background-color: var(--index-beige);
+    display: flex;
+    justify-content: center;
+}
+.screen-thumbnail--index {
+    max-width: 1040px;
+    display: flex;
+}
+
+.screen-thumbnail__detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    white-space: nowrap;
+}
+.screen-thumbnail__detail h1{
+    font-weight: 600;
+    margin-bottom: 2rem;
+
+}
+.screen-thumbnail__image {
+    display: flex;
+    align-items: flex-end;
+}
+.screen-thumbnail__image img:first-child {
+    height: 685px;
+    margin-top: 40px;
+}
+.screen-thumbnail__image img:last-child {
+    max-width: 328px;
+}

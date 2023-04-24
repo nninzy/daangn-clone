@@ -18,15 +18,15 @@
 
 ## [TIL](til/)
 
-= 작업 기록 (날짜별 작업한 범위 및 새롭게 배운 내용 정리)
+= 작업 기록 (날짜별 작업한 범위 및 새롭게 배운 내용 정리) / 당근마켓 홈페이지 원본 스크린샷 이미지 모음 / 나의 최종 작업물 스크린샷 이미지 모음
 
-### 기획안 및 TIL 노션 정리 페이지
+<!-- ### 기획안 및 TIL 노션 정리 페이지
 
 <a href="https://min-z.notion.site/838b6037118347cbb74563a958845f29">
     <img 
         src="http://img.shields.io/badge/notion-000000?style=flat&logo=notion&link=https://min-z.notion.site/cce273910bef4ed0a8ea204e6f83da1e"
         style="height : auto; margin-left : 10px; margin-right : 10px;"/>
-</a>
+</a> -->
 
 ---
 
@@ -123,9 +123,3 @@
 = 전체 스타일에서 사용되는 CSS 변수 모음 (색상, 여백 등)
 
 ---
-
-<!-- 
-## 기획안 및 TIL 기록 (Notion)
-
-
--->
