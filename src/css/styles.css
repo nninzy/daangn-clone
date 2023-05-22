@@ -33,7 +33,17 @@ h1::selection, span::selection, b::selection, div::selection {
     display: none;
 }
 .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-top: 60px;
     padding: 0;
     border-bottom: 0.5px solid var(--btn-gray);
+}
+.text-trunc_twoline {
+    display: -webkit-box;
+-webkit-line-clamp: 2;
+-webkit-box-orient: vertical;
+overflow: hidden;
+text-overflow: ellipsis;
 }

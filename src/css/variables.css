@@ -5,15 +5,17 @@
     --index-beige: #FBF7F3;
     --index-green: #E6F3E6;
     --index-gray: #f8f9fa;
-    --store-beige: #E6F3E6;
+    --store-beige: #F7F1EB;
     --jobs-carrot: #FFE2D2;
-    --realty-carrot: #D2EDFA;
+    --realty-blue: #D2EDFA;
     /* banner, btn, hover color */
-    --banner-carrot: #FF7E36;
+    --banner-carrot: #fff6eb;
     --banner-blue: #EBF5FD;
+    --banner-dk-carrot: #ffebe1;
     --btn-gray: #f2f3f6;
     --hover-gray: #878c95;
     --active-gray: #4C5159;
+    --temp-blue: #1761A9;
     /* 마우스 드래그 */
     --drag-carrot: #ffb98b;
 }

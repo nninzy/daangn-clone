@@ -1,0 +1,13 @@
+.body--login {
+    background-color: var(--btn-gray);
+    display: flex;
+    justify-content: center;
+}
+.main--login > div {
+    width: 1095px;
+    background-color: white;
+    padding: 400px 0;
+}
+.main--login__desc {
+    width: 490px;
+}

@@ -35,7 +35,17 @@
     padding: 0 1rem;
     border-top: 0.5px solid var(--btn-gray);
 }
-
+.footer--sub {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 64px;
+    padding: 12px 95px;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+}
 /* footer__top (nav and app download) */
 .footer__top {
     display: flex;

@@ -1,0 +1,114 @@
+/* phone size media query */
+@media screen and (max-width: 964px) {
+    .nearby-store-ul li::after {
+        content: "";
+        margin: 0.5rem 1rem;
+        width: calc(100% - 2rem);
+        height: 0.0625rem;
+        display: block;
+        background-color: var(--btn-gray);
+    }
+    .nearby-store-ul li:nth-last-child(-n+2) {
+        display: none;
+    }
+    .nearby-store-list-title {
+        margin-top: 1rem;
+    }
+    .nearby-store-nav a{
+        font-size: 0.8rem;
+    }
+    .store-item__thumbnail {
+        width: 64px;
+        height: 64px;
+    }
+    .store-item__content {
+        width: calc(100% - 64px);
+    }
+    .store-item__content__title span:first-child {
+        font-size: 1.2rem;
+    }
+    .store-item__content__title span:last-child {
+        font-size: 0.8rem;
+    }
+    .store-item__content__more {
+        font-size: 0.7rem;
+    }
+}
+/* tablet and PC size media query */
+@media screen and (min-width: 964px) {
+    .br-none {
+        display: none;
+    }
+    .nearby-store-list-title {
+        margin-top: 3rem;
+    }
+    .nearby-store-ul, .nearby-store-reviews {
+        max-width: 800px;
+    }
+    .nearby-store-ul li:not(:nth-last-child(-n+2))::after {
+        content: "";
+        margin: 0.5rem 1rem;
+        width: calc(100% - 2rem);
+        height: 0.0625rem;
+        display: block;
+        background-color: var(--btn-gray);
+    }
+    .store-item__thumbnail {
+        width: 80px;
+        height: 80px;
+    }
+    .store-item__content {
+        width: calc(100% - 80px);
+    }
+    .store-item__content__title span:first-child {
+        font-size: 1.125rem;
+    }
+    .store-item__content__title span:last-child {
+        font-size: 0.875rem;
+    }
+    .store-item__content__more {
+        font-size: 0.813rem;
+    }
+}
+
+/* 다양한 동네가게 */
+.nearby-store-item {
+    padding: 1rem;
+}
+.nearby-store-item:hover, .nearby-store-review:hover {
+    background-color: var(--index-gray);
+}
+.store-item__thumbnail {
+    overflow: hidden;
+    margin-right: 1rem;
+}
+.store-item__thumbnail img{
+    object-fit: cover;
+}
+.store-item__content__title span:last-child, .store-item__content__more {
+    color: darkgray;
+}
+/* 동네 가게 후기 */
+.nearby-store-review {
+    padding: 20px 16px;
+}
+.reviewer-info-thumbnail {
+    width: 36px;
+    height: 36px;
+    overflow: hidden;
+}
+
+.reviewer-info-content__badge {
+    background-color: var(--main-carrot);
+    padding: 2px 4px;
+    font-size: 0.75rem;
+    color: white;
+}
+.review__info__thumbnail {
+    overflow: hidden;
+    width: 62px;
+    height: 62px;
+}
+.reviewer-info-thumbnai img, .review__info__thumbnail img {
+    object-fit: cover;
+}

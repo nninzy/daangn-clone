@@ -1,0 +1,50 @@
+/* phone size media query */
+@media screen and (max-width: 964px) {
+    .jobs__01, .realty__01 {
+        margin: 0 1rem;
+    }
+    .popular-jobs-ul li:nth-last-child(-n+2) {
+        display: none;
+    }
+    .popular-jobs__item__img {
+        width: 96px;
+        height: 96px;
+    }
+    .popular-jobs__item__desc h5 {
+        font-size: 1rem;
+    }
+    .popular-jobs__item__desc div {
+        font-size: 0.813rem;
+    }
+}
+/* tablet and PC size media query */
+@media screen and (min-width: 964px) {
+    .jobs__01, .realty__01 {
+        max-width: 800px;
+    }
+    .popular-jobs__item__img {
+        width: 108px;
+        height: 108px;
+    }
+    .popular-jobs__item__desc h5 {
+        font-size: 1.125rem;
+    }
+    .popular-jobs__item__desc div {
+        font-size: 0.875rem;
+    }
+}
+
+.popular-jobs-ul li {
+    margin-bottom: 1rem;
+}
+.popular-jobs__item__img {
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.popular-jobs__item__img img {
+
+    object-fit: cover;
+}
+.popular-jobs__item__desc div {
+    color: darkgray;
+}
